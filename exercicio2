@@ -1,7 +1,7 @@
 preco = float(input("Digite um valor: "))
 quantidade = int(input("Digite uma quantidade: "))
-total_compras = (preco * quantidade)
+total = (preco * quantidade)
 
 print (f'Preço do produto: {preco}')
 print (f'Quantidade: {quantidade}')
-print (f'Total de compra: {total_compra}')
+print (f'Total de compra: {total}')
