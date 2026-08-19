@@ -1,3 +1,5 @@
+
+# Tarefa 1.
 class Livro:
     def __init__(self, titulo, autor, ano):
         self.titulo = titulo
@@ -9,6 +11,9 @@ print(f"Titulo: {livro.titulo}")
 print(f"autor: {livro.autor}")
 print(f"ano: {livro.ano}")
 
+
+#Tarefa 7.
+
 class Terreno:
     def __init__(self, nome, area):
         self.nome = nome
@@ -18,9 +23,11 @@ class Terreno:
         print("Nome:", self.nome)
         print("Area:", self.area)
 
-
-
-
+terreno = Terreno("Terreno 1",0)
+largura = float(input("Digite a largura do terreno: "))
+comprimento = float(input("Digite o comprimento do terreno: ")) 
+terreno.area = largura * comprimento
+terreno.mostrar_dados()
 
         
       
