@@ -9,6 +9,15 @@ print(f"Titulo: {livro.titulo}")
 print(f"autor: {livro.autor}")
 print(f"ano: {livro.ano}")
 
+class Terreno:
+    def __init__(self, nome, area):
+        self.nome = nome
+        self.area = area
+
+    def mostrar_dados(self):
+        print("Nome:", self.nome)
+        print("Area:", self.area)
+
 
 
 
