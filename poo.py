@@ -29,6 +29,9 @@ comprimento = float(input("Digite o comprimento do terreno: "))
 terreno.area = largura * comprimento
 terreno.mostrar_dados()
 
+# Tarefa 3.
+
+
         
       
     
